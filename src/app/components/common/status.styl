@@ -1,0 +1,31 @@
+.loading
+  position absolute
+  top 50%
+  left 50%
+  width 3rem
+  height 3rem
+  -webkit-transform translate3d(-50%, -100%, 0)
+  transform translate3d(-50%, -100%, 0)
+  z-index 1000
+  background url('../assets/loading.gif') no-repeat center center
+  background-size contain
+
+.loading__fixed
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  z-index: 1
+  background: #eee url('../assets/loading.gif') no-repeat center center
+  background-size: 10%
+
+.nodata
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  z-index: 1
+  background: #eee url('../assets/nodata.png') no-repeat center center
+  background-size: 50%
